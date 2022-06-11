@@ -1,12 +1,10 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import RealTime from "./Src/Realtime_Datebase/RealTime"
-const App = () => {
+import React from 'react';
+import MainNavigator from './Src/Auth/MainNavigator/MainNavigator'
+
+function App() {
   return (
-    <View>
-      <RealTime/>
-    </View>
-  )
+    <MainNavigator/>
+  );
 }
 
-export default App
+export default App;
